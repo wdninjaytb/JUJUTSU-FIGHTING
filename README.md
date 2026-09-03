@@ -46,3 +46,6 @@ Este é um projeto de fã criado exclusivamente para fins acadêmicos e de apren
 Jujutsu Kaisen e seus personagens pertencem aos seus respectivos detentores de direitos.
 
 Sprites e demais recursos de terceiros utilizados no projeto pertencem aos seus respectivos criadores.
+Gojo - Finhj
+Sukuna - ZeltrasBlack
+Santuário Malevolente - ZeltrasBlack
