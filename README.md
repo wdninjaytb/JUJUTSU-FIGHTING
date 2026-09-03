@@ -1,10 +1,12 @@
 # ⚔️ Jujutsu Fighting
 
-![Jujutsu Fighting](logoprojetojujutsu.png)
+🇧🇷 **Português** | [🇺🇸 English](README.en.md) | [🇯🇵 日本語](README.ja.md)
 
 Fan game acadêmico desenvolvido no **Construct 3**, inspirado no arco da **Batalha dos Mais Fortes** de *Jujutsu Kaisen*.
 
 O projeto recria o confronto entre **Gojo e Sukuna** em uma experiência de luta 2D, utilizando mecânicas, habilidades e elementos visuais inspirados na obra.
+
+![Jujutsu Fighting](logoprojetojujutsu.png)
 
 ## 🎮 Gameplay
 
