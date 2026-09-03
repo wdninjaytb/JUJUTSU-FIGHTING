@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Jujutsu Fighting</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="imgs/logo_jujutsu_kaisen-removebg-preview.png">
+        <link rel="stylesheet" href="css/styleupdates.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://db.onlinewebfonts.com/c/71521acafb1c2d8bca6f66548cdc4138?family=Jujutsu+Kaisen" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                <img src="imgs/logo_jujutsu_kaisen-removebg-preview.png" alt="símbolo da escola jujutsu">
+                <h1>Jujutsu Fighting</h1>
+                <nav>
+                    <a class="jogar" href="jogar.html" title="PLAY" ><i class="fa-solid fa-play"></i></a>
+                    <a id="btns1" class="home" href="index.html" title="HOME">HOME</a>
+                    <a id="btns2" class="updates" href="updates.html" title="UPDATES">UPDATES</a>
+                    <a id="btns3"class="imagens" href="imagens.html" title="IMAGENS">IMAGENS</a>
+                    <a id="btns4" class="contato" href="contato.html" title="CONTATO">CONTATO</a>
+                </nav>
+                  <button id="btn-temasite" onclick="
+                if (!document.body.style.backgroundColor || document.body.style.backgroundColor == 'rgb(34, 34, 34)') {
+                    document.body.style.backgroundColor = 'rgb(233, 233, 238)';
+                    document.getElementById('updates').style.backgroundColor = 'rgb(255, 255, 255)';
+                    document.getElementById('updates').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('btns1').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns2').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns3').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns4').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btn-temasite').innerText = 'Tema Escuro'
+                    document.getElementById('btn-temasite').style.color = 'rgb(204, 204, 204)'
+                    document.getElementById('btn-temasite').style.backgroundColor = 'rgb(34, 34, 34)'
+                } else {
+                    document.body.style.backgroundColor = 'rgb(34, 34, 34)';
+                    document.body.style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('updates').style.backgroundColor = 'rgb(204, 204, 204)';
+                    document.getElementById('updates').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('btns1').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns2').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns3').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns4').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns4').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btn-temasite').innerText = 'Tema Claro';
+                    document.getElementById('btn-temasite').style.color = 'rgb(34, 34, 34)'
+                    document.getElementById('btn-temasite').style.backgroundColor = 'rgb(204, 204, 204)'
+                }
+                ">Tema Claro</button>
+        </header>
+
+        <main>
+            <section id="updates">
+                <h2>UPDATE 1.0.0 (RELEASE)</h2>
+                <ul>
+                    <li>
+                        Ao iniciar o jogo, toca uma intro com o trailer do jogo. Botão de Skip disponivel no canto inferior direito.
+                    </li>
+                        <br>
+                    <li>
+                        Sistema de seleção de personagens adicionado, por enquanto contando com apenas 2 personagens e 1 mapa. Os personagens são:
+                        <ul>
+                            <br>
+                        <li>
+                            Satoru Gojo, o feiticeiro mais forte da era moderna, o mais honrado, usuário dos Seis olhos e da técnica do Ilimitado. O ápice do Mundo Jujutsu atual.
+                        </li>
+                            <br>
+                        <li>
+                            Ryomen Sukuna, o chamado Rei das Maldições (também conhecido como O Anjo Caído) é um feiticeiro da era Heian, que dividiu sua alma em 20 pedaços, os 20 dedos de Sukuna (sua forma original tinha 4 braços e 2 rostos.)
+                        </li>
+                            <br>
+                        </ul>
+                    </li>
+                    <li>
+                            Mapa Duelo de Expansões Adicionado
+                    </li>
+                        <br>
+                    <li>
+                            Satoru Gojo Adicionado. Suas habilidades são:
+                <ol>
+                    <br>
+                        <li>
+                            Soco: Um soco forte que causa 10 de dano. Cooldown de 0.5 segundos (CD).
+                        </li>
+                            <br>
+                        <li>
+                            Chute: Um chute lateral que também causa 10 de dano. CD de 0.5 segundos.
+                        </li>
+                            <br>
+                        <li>
+                            Defesa: bloqueia os ataques, nega o dano. CD de 3 segundos
+                        </li>
+                            <br>
+                        <li>
+                            Azul: Skill de curto alcance que causa 20 de dano e some. 3 segundos de CD.
+                        </li>
+                            <br>
+                        <li>
+                            Vermelho: Skill de longo alcance (como um projétil) que causa 35 de dano. 5 segundos de CD.
+                        </li>
+                            <br>
+                        <li>
+                            Roxo: Skill de longo alcance. Tem animação de carregamento, mas causa 75 de dano. 12 segundos de CD. Se acertado enquanto carrega a skill, a mesma é cancelada e vocÊ recebe o CD.
+                </ol>
+                    <br>
+                    <li>
+                        Ryomen Sukuna Adicionado. Suas habilidades são:
+                    </li>
+                        <br>
+                        <ol>
+                            <li>
+                                Soco: Um soco forte que causa 10 de dano. Cooldown de 0.5 segundos.
+                            </li>
+                                <br>
+                            <li>
+                                Chute: Um chute vindo de baixo pra cima que também causa 10 de dano. CD de 0.5 segundos.
+                            </li>
+                                <br>
+                            <li>
+                                Defesa: bloqueia os ataques, nega o dano. CD de 3 segundos.
+                            </li>
+                                <br>
+                            <li>
+                                Desmantelar: Skill de longo alcance e causa 30 de dano. CD de 3 segundos.
+                            </li>
+                                <br>
+                            <li>
+                                Clivar: Cortes de curto alcance que causam 40 de dano. CD de 5 segundos.
+                            </li>
+                                <br>
+                            <li>
+                                Kai: Versão mais forte do Desmantelar, causa 60 de dano, CD de 12 segundos.
+                            </li>
+                                <br>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Nicolas Hideki Tosawa</p>
+        </footer>
+    </body>
+</html>

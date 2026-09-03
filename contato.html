@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Jujutsu Fighting</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="imgs/logo_jujutsu_kaisen-removebg-preview.png">
+        <link rel="stylesheet" href="css/stylecontato.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://db.onlinewebfonts.com/c/71521acafb1c2d8bca6f66548cdc4138?family=Jujutsu+Kaisen" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                <img src="imgs/logo_jujutsu_kaisen-removebg-preview.png" alt="símbolo da escola jujutsu">
+                <h1>Jujutsu Fighting</h1>
+                <nav>
+                    <a class="jogar" href="jogar.html" title="PLAY" ><i class="fa-solid fa-play"></i></a>
+                    <a id="btns1" class="home" href="index.html" title="HOME">HOME</a>
+                    <a id="btns2" class="updates" href="updates.html" title="UPDATES">UPDATES</a>
+                    <a id="btns3" class="imagens" href="imagens.html" title="IMAGENS">IMAGENS</a>
+                    <a id="btns4" class="contato" href="contato.html" title="CONTATO">CONTATO</a>
+                </nav>
+                  <button id="btn-temasite" onclick="
+                if (!document.body.style.backgroundColor || document.body.style.backgroundColor == 'rgb(34, 34, 34)') {
+                    document.body.style.backgroundColor = 'rgb(233, 233, 238)';
+                    document.getElementById('form').style.backgroundColor = 'rgb(255, 255, 255)';
+                    document.getElementById('form').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('redes').style.backgroundColor = 'rgb(255, 255, 255)';
+                    document.getElementById('redes').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('btns1').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns2').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns3').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns4').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btn-temasite').innerText = 'Tema Escuro'
+                    document.getElementById('btn-temasite').style.color = 'rgb(204, 204, 204)'
+                    document.getElementById('btn-temasite').style.backgroundColor = 'rgb(34, 34, 34)'
+                } else {
+                    document.body.style.backgroundColor = 'rgb(34, 34, 34)';
+                    document.body.style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('form').style.backgroundColor = 'rgb(204, 204, 204)';
+                    document.getElementById('form').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('redes').style.backgroundColor = 'rgb(204, 204, 204)';
+                    document.getElementById('redes').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('btns1').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns2').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns3').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns4').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns4').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btn-temasite').innerText = 'Tema Claro';
+                    document.getElementById('btn-temasite').style.color = 'rgb(34, 34, 34)'
+                    document.getElementById('btn-temasite').style.backgroundColor = 'rgb(204, 204, 204)'
+                }
+                ">Tema Claro</button>
+        </header>
+
+        <main>
+            <section id="form" class="form">
+            <h1>Contate-nos via email</h1>
+               <form action="#" method="get" name="form-email">
+                <label for="nome">Digite seu nome:</label>
+                <input type="text" name="nome" id="nome" size="60" maxlength="40" placeholder="Nome Completo" autocomplete="off" required class="formulário">
+                <br>
+                <label for="email">Digite seu Email:</label>
+                <input type="email" name="email" id="email" size="70" maxlength="50" placeholder="Digite seu endereço de Email" autocomplete="off" required class="formulário">
+                <br>
+                <label for="text">Escreva sua Mensagem (Máx 200 caractéres)</label>
+                <input type="text" name="text" id="text" size="220" maxlength="200" placeholder="Escreva sua mensagem aqui" autocomplete="off" required class="mensagem">
+                <br>
+                <button type="submit" class="btn-submit">Enviar Dados</button>
+                <button type="reset" class="btn-reset">Limpar Dados</button>
+               </form>
+            </section>
+            <section id="redes" class="redes">
+                <h1 class="socialmedia">Nossas Redes Sociais</h1>
+                <div id="instagram">
+                <img src="imgs/logo_Insta-removebg-preview.png" alt="logo instagram" class="instagram-logo">
+                <p class="instagram">@JujutsuFigthingOfficial</p>
+                </div>
+                <div id="X">
+                <img src="imgs/logo_X-removebg-preview.png" alt="logo X" class="X-logo">
+                <p class="X">@JujutsuFigthingOfficial</p>
+                </div>
+                <div id="ytb">
+                <img src="imgs/logo_ytb-removebg-preview.png" alt="logo Youtube" class="ytb-logo">
+                <p class="ytb">Jujutsu Figthing Official</p>
+                </div>
+                <div id="discord">
+                <img src="imgs/logo_discord-removebg-preview.png" alt="logo Discord" class="discord-logo">
+                <p class="discord">JJF Official</p>
+                </div>
+                <div id="telegram">
+                <img src="imgs/logo_telegram-removebg-preview.png" alt="logo Telegram" class="telegram-logo">
+                <p class="telegram">JJF Official Community</p>
+                </div>
+                <div id="ttk">
+                <img src="imgs/logo_ttk-removebg-preview.png" alt="logo TikTok" class="ttk-logo">
+                <p class="ttk">@JujutsuFigthingOfficial</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Nicolas Hideki Tosawa</p>
+        </footer>
+    </body>
+</html>

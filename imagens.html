@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Jujutsu Fighting</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="imgs/logo_jujutsu_kaisen-removebg-preview.png">
+        <link rel="stylesheet" href="css/styleimages.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://db.onlinewebfonts.com/c/71521acafb1c2d8bca6f66548cdc4138?family=Jujutsu+Kaisen" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                <img src="imgs/logo_jujutsu_kaisen-removebg-preview.png" alt="símbolo da escola jujutsu">
+                <h1>Jujutsu Fighting</h1>
+                <nav>
+                    <a class="jogar" href="jogar.html" title="PLAY" ><i class="fa-solid fa-play"></i></a>
+                    <a id="btns1" class="home" href="index.html" title="HOME">HOME</a>
+                    <a id="btns2" class="updates" href="updates.html" title="UPDATES">UPDATES</a>
+                    <a id="btns3" class="imagens" href="imagens.html" title="IMAGENS">IMAGENS</a>
+                    <a id="btns4" class="contato" href="contato.html" title="CONTATO">CONTATO</a>
+                </nav>
+                  <button id="btn-temasite" onclick="
+                if (!document.body.style.backgroundColor || document.body.style.backgroundColor == 'rgb(34, 34, 34)') {
+                    document.body.style.backgroundColor = 'rgb(233, 233, 238)';
+                    document.getElementById('imgs').style.backgroundColor = 'rgb(255, 255, 255)';
+                    document.getElementById('imgs').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('btns1').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns2').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns3').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns4').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btn-temasite').innerText = 'Tema Escuro'
+                    document.getElementById('btn-temasite').style.color = 'rgb(204, 204, 204)'
+                    document.getElementById('btn-temasite').style.backgroundColor = 'rgb(34, 34, 34)'
+                } else {
+                    document.body.style.backgroundColor = 'rgb(34, 34, 34)';
+                    document.body.style.color = 'rgb(204, 204, 204)';
+                     document.getElementById('imgs').style.backgroundColor = 'rgb(204, 204, 204)';
+                    document.getElementById('imgs').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('btns1').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns2').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns3').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns4').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns4').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btn-temasite').innerText = 'Tema Claro';
+                    document.getElementById('btn-temasite').style.color = 'rgb(34, 34, 34)'
+                    document.getElementById('btn-temasite').style.backgroundColor = 'rgb(204, 204, 204)'
+                }
+                ">Tema Claro</button>
+        </header>
+
+        <main>
+            <section id="imgs">
+                <h1>Imagens de Gameplay</h1>
+                <div id="img-1">
+                    <img src="imgs/img-1.PNG" alt="Tela de Seleção" title="Tela de Seleção">
+                </div>
+                <div id="img-2">
+                    <img src="imgs/img-2.png" alt="Gojo carregando Roxo" title="Gojo carregando Roxo">
+                </div>
+                <div id="img-3">
+                    <img src="imgs/img-3.png" alt="Gojo Aka" title="Gojo Aka">
+                </div>
+                <div id="img-4">
+                    <img src="imgs/img-4.png" alt="Sukuna Dismantle" title="Sukuna Dismantle">
+                </div>
+                <div id="img-5">
+                    <img src="imgs/img-5.png" alt="Sukuna Kai" title="Sukuna Kai">
+                </div>
+                <div id="img-6">
+                    <img src="imgs/img-6.png" alt="Gojo Roxo" title="Gojo Roxo">
+                </div>
+
+            </section>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Nicolas Hideki Tosawa</p>
+        </footer>
+    </body>
+</html>

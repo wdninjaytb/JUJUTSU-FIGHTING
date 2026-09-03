@@ -3,25 +3,106 @@
     <head>
         <title>Jujutsu Fighting</title>
         <meta charset="utf-8">
-        <link rel="icon" href="logo jujutsu kaisen.jpg">
-        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imgs/logo_jujutsu_kaisen-removebg-preview.png">
+        <link rel="stylesheet" href="css/stylehome.css">
+        <link href="https://db.onlinewebfonts.com/c/71521acafb1c2d8bca6f66548cdc4138?family=Jujutsu+Kaisen" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
         <header>
-                <img src="JujutsuFightingLogo.png" alt="Logo Jujutsu Fighting>">
+                <img src="imgs/logo_jujutsu_kaisen-removebg-preview.png" alt="símbolo da escola jujutsu">
+                <h1 id="titulo">Jujutsu Fighting</h1>
+                <nav class="container-botoes">
+                    <a class="jogar" href="jogar.html" title="PLAY"><i class="fa-solid fa-play"></i></a>
+                    <a id="btns1" class="home" href="#" title="HOME">HOME</a>
+                    <a id="btns2" class="updates" href="updates.html" title="UPDATES">UPDATES</a>
+                    <a id="btns3" class="imagens" href="imagens.html" title="IMAGENS">IMAGENS</a>
+                    <a id="btns4" class="contato" href="contato.html" title="CONTATO">CONTATO</a>
+                </nav>
+                <button id="btn-temasite" onclick="
+                if (!document.body.style.backgroundColor || document.body.style.backgroundColor == 'rgb(34, 34, 34)') {
+                    document.body.style.backgroundColor = 'rgb(233, 233, 238)';
+                    document.getElementById('Ficha').style.backgroundColor = 'rgb(255, 255, 255)';
+                    document.getElementById('Ficha').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('btns1').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns2').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns3').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btns4').style.color = 'rgb(34,  34, 34)';
+                    document.getElementById('btn-temasite').innerText = 'Tema Escuro'
+                    document.getElementById('btn-temasite').style.color = 'rgb(204, 204, 204)'
+                    document.getElementById('btn-temasite').style.backgroundColor = 'rgb(34, 34, 34)'
+                    document.getElementById('footer').style.backgroundColor = 'rgb(204, 204, 204)'
+                    document.getElementById('textofooter').style.color = 'rgb(0, 0, 0)'
+                } else {
+                    document.body.style.backgroundColor = 'rgb(34, 34, 34)';
+                    document.body.style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('Ficha').style.backgroundColor = 'rgb(204, 204, 204)';
+                    document.getElementById('Ficha').style.color = 'rgb(34, 34, 34)';
+                    document.getElementById('btns1').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns2').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns3').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns4').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btns4').style.color = 'rgb(204, 204, 204)';
+                    document.getElementById('btn-temasite').innerText = 'Tema Claro';
+                    document.getElementById('btn-temasite').style.color = 'rgb(34, 34, 34)'
+                    document.getElementById('btn-temasite').style.backgroundColor = 'rgb(204, 204, 204)'
+                    document.getElementById('footer').style.backgroundColor = 'black'
+                    document.getElementById('textofooter').style.color = 'rgb(204, 204, 204)';
+
+                }
+                ">Tema Claro</button>
         </header>
 
         <main>
-            <img src="Gojo vs Sukuna.jpg" alt="Gojo VS Sukuna (contém créditos dos sprites utilizados)">
-            <section>
-                <h2>O que é o Jujutsu Fighting?</h2>
-                <p>Jujutsu Fighting é um jogo de luta 2D inspirado na série de anime/mangá Jujutsu Kaisen, onde na beta temos apenas 2 personagens, sendo eles Satoru Gojo e Ryomen Sukuna reincarnado no corpo de Megumi Fushiguro. Sukuna quer matar Satoru Gojo, já Gojo quer derrotá-lo para liberar seu aluno Fushiguro das garras de Sukuna. Os dois lutam para decidir o destino do mundo!</p>
-                <p> Qual é o limite do poder? Dois lados, quem irá prevalecer, o Rei ou quem jurou nos proteger? Independente do vencedor, o que haverá aqui para governar, se em cinzas o reino estará!?</p>
-            </section>
+            <video id="conteudo-sensivel" class="trailer" width="460px" height="295px"  controls poster="imgs/gojovssukunavideoposter.jpg">
+                <source src="videos/Gojo VS Sukuna - Sprite Animation.mp4" type="video/mp4">
+            </video>
+            
+                <section id="Ficha">
+                    <h2>Ficha Técnica Jujutsu Fighting</h2>
+                    <p><strong>Obra Original: </strong> <span id="Original"></span></p>
+                    <p><strong>Plataforma: </strong> <span id="Plataforma"></span></p>
+                    <p><strong>Gênero do Jogo: </strong> <span id="Genero"></span></p>
+                    <p><strong>Classificação Oficial: </strong><span id="Idade"></span></p>
+                    <p><strong>Preço: </strong><span id="Preco"></span></p>
+                </section>
+            <img src="imgs/Gojo vs Sukuna.jpg" alt="Gojo VS Sukuna (contém créditos dos sprites utilizados)">
         </main>
+        <script>
+            const ObraOrig = "Jujutsu Kaisen"
+            const platfJogo = "Web"
+            const genJogo = "Luta 2D"
+            const IdadeMin = "18 anos"
+            const Preco = "Gratuito"
 
-        <footer>
-            <p>Desenvolvido por Nicolas Hideki Tosawa</p>
+            document.getElementById("Original").innerText = ObraOrig;
+            document.getElementById("Plataforma").innerText = platfJogo;
+            document.getElementById("Genero").innerText = genJogo;
+            document.getElementById("Idade").innerText = IdadeMin;
+            document.getElementById("Preco").innerText = Preco;
+
+            const AnoDeLancamento = 2026;
+            let AnoAtual = new Date().getFullYear();
+
+            if (AnoAtual == AnoDeLancamento) {
+                alert("Esse jogo é um grande lançamento e está em sua fase final de testes para o público")
+            }
+
+            let nomeUser = prompt("Bem-vindo ao site oficial de Jujutsu Fightning. Qual é o seu nome?");
+            let IdadeUser = prompt("Olá, " + nomeUser + "! Qual é a sua idade para acessar o conteúdo sensível?");
+            let Aceito = prompt("Você, ao ver o conteúdo sensível, receberá spoilers da batalha dos mais fortes. Você aceita isso? Digite SIM para aceitar e NÃO para recusar.")
+
+            if (IdadeUser >= 18 && Aceito == "SIM" || Aceito == "Sim" || Aceito == "sim") {
+                alert("Obrigado " + nomeUser + " por confirmar sua idade! Seu acesso conteúdo sensível foi liberado!");
+                document.getElementById("conteudo-sensivel").style.filter = "none";
+            } else {
+                alert("Lamentamos " + nomeUser + " por segurança, seu acesso ao conteúdo sensível foi negado!");
+                document.getElementById("conteudo-sensivel").style.filter = "blur(20px)";
+            }
+        </script>
+        <footer id="footer">
+            <p id="textofooter">Desenvolvido por Nicolas Hideki Tosawa</p>
         </footer>
     </body>
 </html>
