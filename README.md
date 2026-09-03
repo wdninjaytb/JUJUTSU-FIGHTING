@@ -1,6 +1,6 @@
 # ⚔️ Jujutsu Fighting
 
-![Jujutsu Fighting](jujutsu-fighting.png)
+![Jujutsu Fighting](logoprojetojujutsu.png)
 
 Fan game acadêmico desenvolvido no **Construct 3**, inspirado no arco da **Batalha dos Mais Fortes** de *Jujutsu Kaisen*.
 
