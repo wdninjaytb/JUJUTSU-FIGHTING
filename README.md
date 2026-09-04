@@ -54,12 +54,13 @@ Santuário Malevolente - ZeltrasBlack
 
 ### 🎬 Vídeo da introdução
 
-A animação utilizada na introdução do jogo foi criada por seu respectivo autor e utiliza sprites de:
+A animação utilizada na introdução do jogo foi criada por **Clearly**.
 
-- ROB4N
-- Decepticon2811
-- MPS-Ghost
+Sprites utilizados na animação:
+- [ROB4N](https://www.youtube.com/@ROB4N)
+- [Decepticon2811](https://www.youtube.com/@Decepticon2811)
+- [MPS-Ghost](https://www.youtube.com/@MPS-Ghost)
 - GODOFMUGEN
-- IsaacByArt
+- [IsaacByArt](https://www.deviantart.com/isaacbyart)
 
-[Vídeo original no YouTube](https://www.youtube.com/watch?v=3VOiakyGKG4)
+[▶️ Vídeo original — Clearly](https://www.youtube.com/watch?v=3VOiakyGKG4)
