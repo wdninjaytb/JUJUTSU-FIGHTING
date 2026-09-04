@@ -59,12 +59,13 @@ Construct 3を使用したインタラクティブなゲーム制作を通して
 
 ### 🎬 イントロ映像
 
-ゲームのイントロで使用されているアニメーションは、元動画の作者によって制作され、以下のクリエイターのスプライトが使用されています：
+ゲームのイントロで使用されているアニメーションは **Clearly** によって制作されました。
 
-- ROB4N
-- Decepticon2811
-- MPS-Ghost
+アニメーションで使用されているスプライト：
+- [ROB4N](https://www.youtube.com/@ROB4N)
+- [Decepticon2811](https://www.youtube.com/@Decepticon2811)
+- [MPS-Ghost](https://www.youtube.com/@MPS-Ghost)
 - GODOFMUGEN
-- IsaacByArt
+- [IsaacByArt](https://www.deviantart.com/isaacbyart)
 
-[YouTubeの元動画](https://www.youtube.com/watch?v=3VOiakyGKG4)
+[▶️ 元動画 — Clearly](https://www.youtube.com/watch?v=3VOiakyGKG4)
