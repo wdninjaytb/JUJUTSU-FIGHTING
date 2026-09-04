@@ -56,3 +56,15 @@ Construct 3を使用したインタラクティブなゲーム制作を通して
 五条悟 - Finhj  
 両面宿儺 - ZeltrasBlack  
 伏魔御廚子 - ZeltrasBlack
+
+### 🎬 イントロ映像
+
+ゲームのイントロで使用されているアニメーションは、元動画の作者によって制作され、以下のクリエイターのスプライトが使用されています：
+
+- ROB4N
+- Decepticon2811
+- MPS-Ghost
+- GODOFMUGEN
+- IsaacByArt
+
+[YouTubeの元動画](https://www.youtube.com/watch?v=3VOiakyGKG4)
