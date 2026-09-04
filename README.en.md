@@ -53,3 +53,15 @@ Gojo - Finhj
 Sukuna - ZeltrasBlack  
 Malevolent Shrine - ZeltrasBlack
 
+### 🎬 Intro video
+
+The animation used in the game's introduction was created by its respective author and uses sprites by:
+
+- ROB4N
+- Decepticon2811
+- MPS-Ghost
+- GODOFMUGEN
+- IsaacByArt
+
+[Original video on YouTube](https://www.youtube.com/watch?v=3VOiakyGKG4)
+
