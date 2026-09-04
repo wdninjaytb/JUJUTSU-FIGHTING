@@ -55,13 +55,14 @@ Malevolent Shrine - ZeltrasBlack
 
 ### 🎬 Intro video
 
-The animation used in the game's introduction was created by its respective author and uses sprites by:
+The animation used in the game's introduction was created by **Clearly**.
 
-- ROB4N
-- Decepticon2811
-- MPS-Ghost
+Sprites used in the animation:
+- [ROB4N](https://www.youtube.com/@ROB4N)
+- [Decepticon2811](https://www.youtube.com/@Decepticon2811)
+- [MPS-Ghost](https://www.youtube.com/@MPS-Ghost)
 - GODOFMUGEN
-- IsaacByArt
+- [IsaacByArt](https://www.deviantart.com/isaacbyart)
 
-[Original video on YouTube](https://www.youtube.com/watch?v=3VOiakyGKG4)
+[▶️ Original video — Clearly](https://www.youtube.com/watch?v=3VOiakyGKG4)
 
