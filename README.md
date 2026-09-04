@@ -51,3 +51,15 @@ Sprites e demais recursos de terceiros utilizados no projeto pertencem aos seus 
 Gojo - Finhj
 Sukuna - ZeltrasBlack
 Santuário Malevolente - ZeltrasBlack
+
+### 🎬 Vídeo da introdução
+
+A animação utilizada na introdução do jogo foi criada por seu respectivo autor e utiliza sprites de:
+
+- ROB4N
+- Decepticon2811
+- MPS-Ghost
+- GODOFMUGEN
+- IsaacByArt
+
+[Vídeo original no YouTube](https://www.youtube.com/watch?v=3VOiakyGKG4)
